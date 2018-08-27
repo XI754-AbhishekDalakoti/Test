@@ -1,0 +1,32 @@
+{
+  "uid" : "f30dad78-4fdb-4a02-9d09-45768a9398d2",
+  "name" : "should redirect user to helpdesk page",
+  "title" : "should redirect user to helpdesk page",
+  "time" : {
+    "start" : 1533727436179,
+    "stop" : 1533727443470,
+    "duration" : 7291
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : null,
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "70af66ad-a417-429d-83ba-71d51090674c-attachment.png",
+    "type" : null
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

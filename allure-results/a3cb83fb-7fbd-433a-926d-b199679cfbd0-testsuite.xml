@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1533727436179' stop='1533727443470'>
+    <name>Verify user navigation on Contact the Helpdesk link</name>
+    <title>Verify user navigation on Contact the Helpdesk link</title>
+    <test-cases>
+        <test-case start='1533727436179' status='passed' stop='1533727443470'>
+            <name>should redirect user to helpdesk page</name>
+            <title>should redirect user to helpdesk page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='70af66ad-a417-429d-83ba-71d51090674c-attachment.png' type='image/png' size='34995'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

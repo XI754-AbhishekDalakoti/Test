@@ -1,0 +1,32 @@
+{
+  "uid" : "cf934a6c-8cda-4792-8f87-962973cebc78",
+  "name" : "should verify and enter details for Slack Page",
+  "title" : "should verify and enter details for Slack Page",
+  "time" : {
+    "start" : 1533727321072,
+    "stop" : 1533727350771,
+    "duration" : 29699
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : null,
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "0f808b80-17d2-4515-853d-3bfefdb5a850-attachment.png",
+    "type" : null
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

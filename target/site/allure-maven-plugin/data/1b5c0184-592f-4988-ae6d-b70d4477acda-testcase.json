@@ -1,0 +1,32 @@
+{
+  "uid" : "1b5c0184-592f-4988-ae6d-b70d4477acda",
+  "name" : "should enter details on organisational login page",
+  "title" : "should enter details on organisational login page",
+  "time" : {
+    "start" : 1533727350771,
+    "stop" : 1533727364601,
+    "duration" : 13830
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : null,
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "6e9d48da-cd90-46fe-a558-cbb26e931d59-attachment.png",
+    "type" : null
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

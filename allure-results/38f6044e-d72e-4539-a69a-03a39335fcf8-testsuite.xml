@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1533727294365' stop='1533727313451'>
+    <name>Verify validity of URL</name>
+    <title>Verify validity of URL</title>
+    <test-cases>
+        <test-case start='1533727294365' status='passed' stop='1533727313451'>
+            <name>should check if the url redirected the user to Snap Login page</name>
+            <title>should check if the url redirected the user to Snap Login page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4b6529e3-4165-476c-911a-fa303fb55bc9-attachment.png' type='image/png' size='391593'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

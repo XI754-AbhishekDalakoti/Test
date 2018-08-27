@@ -1,0 +1,32 @@
+{
+  "uid" : "4b5dc3a9-80b4-428b-8811-a415105b2d61",
+  "name" : "should check if the url redirected the user to Snap Login page",
+  "title" : "should check if the url redirected the user to Snap Login page",
+  "time" : {
+    "start" : 1533727294365,
+    "stop" : 1533727313451,
+    "duration" : 19086
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : null,
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "4b6529e3-4165-476c-911a-fa303fb55bc9-attachment.png",
+    "type" : null
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

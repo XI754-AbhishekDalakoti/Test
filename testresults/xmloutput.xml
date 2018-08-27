@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="10" tests="12" time="188.658">
+ <testsuite name="Verify validity of URL" timestamp="2018-08-27T19:23:51" hostname="localhost" time="24.116" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Verify validity of URL" name="should check if the url redirected the user to Snap Login page" time="24.112" />
+ </testsuite>
+ <testsuite name="Verify login functionality with valid credentials" timestamp="2018-08-27T19:24:15" hostname="localhost" time="68.115" errors="0" tests="4" skipped="0" disabled="0" failures="3">
+  <testcase classname="Verify login functionality with valid credentials" name="should enter username and password in Login Page" time="7.615" />
+  <testcase classname="Verify login functionality with valid credentials" name="should verify and enter details for Slack Page" time="26.362" />
+  <testcase classname="Verify login functionality with valid credentials" name="should enter details on organisational login page" time="13.538">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, button[id=&apos;oauth_authorizify&apos;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, button[id='oauth_authorizify'])
+    at elementArrayFinder.getWebElements.then (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at LoginPage.enterOrganizationDetails (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\pages\LoginPage.js:21:72)
+    at UserContext.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:40:23)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it("should enter details on organisational login page") in control flow
+    at UserContext.<anonymous> (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:37:8)
+    at addSpecsToSuite (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:18:1)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Verify login functionality with valid credentials" name="should verify SNAP home page" time="20.598">
+   <failure type="toEqual" message="Expected &apos;Sign In&apos; to equal &apos;SNAP | Home&apos;."><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:46:32)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7]]>
+   </failure>
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, select[id=&apos;user-options&apos;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, select[id='user-options'])
+    at elementArrayFinder.getWebElements.then (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at LoginPage.logout (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\pages\LoginPage.js:25:61)
+    at UserContext.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:47:25)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it("should verify SNAP home page") in control flow
+    at UserContext.<anonymous> (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:42:9)
+    at addSpecsToSuite (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:18:1)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="Verify the login functionality with empty username" timestamp="2018-08-27T19:25:23" hostname="localhost" time="16.088" errors="0" tests="1" skipped="0" disabled="0" failures="1">
+  <testcase classname="Verify the login functionality with empty username" name="should not login the user and popup should be displayed" time="16.087">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, input[name=&apos;username&apos;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, input[name='username'])
+    at elementArrayFinder.getWebElements.then (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as sendKeys] (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as sendKeys] (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at LoginPage.enterEmptyUsername (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\pages\LoginPage.js:30:57)
+    at UserContext.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:60:25)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it("should not login the user and popup should be displayed") in control flow
+    at UserContext.<anonymous> (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:59:9)
+    at addSpecsToSuite (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:52:1)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="Verify the login functionality with invalid username" timestamp="2018-08-27T19:25:39" hostname="localhost" time="14.513" errors="0" tests="1" skipped="0" disabled="0" failures="1">
+  <testcase classname="Verify the login functionality with invalid username" name="should not login the user and error message should be displayed" time="14.513">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, input[name=&apos;username&apos;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, input[name='username'])
+    at elementArrayFinder.getWebElements.then (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as sendKeys] (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as sendKeys] (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at LoginPage.enterInvalidUsername (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\pages\LoginPage.js:62:57)
+    at UserContext.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:72:44)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it("should not login the user and error message should be displayed") in control flow
+    at UserContext.<anonymous> (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:71:9)
+    at addSpecsToSuite (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:64:1)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="Verify the login functionality with empty password" timestamp="2018-08-27T19:25:53" hostname="localhost" time="14.357" errors="0" tests="1" skipped="0" disabled="0" failures="1">
+  <testcase classname="Verify the login functionality with empty password" name="should not login the user and popup should be displayed" time="14.356">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, input[name=&apos;username&apos;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, input[name='username'])
+    at elementArrayFinder.getWebElements.then (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as sendKeys] (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as sendKeys] (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at LoginPage.enterEmptyPassword (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\pages\LoginPage.js:70:57)
+    at UserContext.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:85:25)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it("should not login the user and popup should be displayed") in control flow
+    at UserContext.<anonymous> (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:84:9)
+    at addSpecsToSuite (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:77:1)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="Verify the login functionality with invalid password" timestamp="2018-08-27T19:26:08" hostname="localhost" time="13.377" errors="0" tests="1" skipped="0" disabled="0" failures="1">
+  <testcase classname="Verify the login functionality with invalid password" name="should not login the user and error message should be displayed" time="13.376">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, input[name=&apos;username&apos;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, input[name='username'])
+    at elementArrayFinder.getWebElements.then (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as sendKeys] (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as sendKeys] (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at LoginPage.enterInvalidPassword (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\pages\LoginPage.js:75:57)
+    at UserContext.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:97:44)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it("should not login the user and error message should be displayed") in control flow
+    at UserContext.<anonymous> (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:96:9)
+    at addSpecsToSuite (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:89:1)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="Verify the login functionality with invalid credentials" timestamp="2018-08-27T19:26:21" hostname="localhost" time="12.677" errors="0" tests="1" skipped="0" disabled="0" failures="1">
+  <testcase classname="Verify the login functionality with invalid credentials" name="should not login the user and error message should be displayed" time="12.676">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, input[name=&apos;username&apos;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, input[name='username'])
+    at elementArrayFinder.getWebElements.then (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as sendKeys] (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as sendKeys] (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at LoginPage.enterInvalidCredentials (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\pages\LoginPage.js:82:57)
+    at UserContext.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:110:44)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it("should not login the user and error message should be displayed") in control flow
+    at UserContext.<anonymous> (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:109:9)
+    at addSpecsToSuite (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:102:1)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="Verify the login functionality with empty credentials" timestamp="2018-08-27T19:26:34" hostname="localhost" time="12.281" errors="0" tests="1" skipped="0" disabled="0" failures="1">
+  <testcase classname="Verify the login functionality with empty credentials" name="should not login the user and error message should be displayed" time="12.28">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, input[name=&apos;username&apos;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, input[name='username'])
+    at elementArrayFinder.getWebElements.then (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as sendKeys] (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as sendKeys] (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at LoginPage.enterEmptyCredentials (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\pages\LoginPage.js:89:57)
+    at UserContext.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:123:25)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it("should not login the user and error message should be displayed") in control flow
+    at UserContext.<anonymous> (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:122:9)
+    at addSpecsToSuite (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:115:1)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="Verify user navigation on Contact the Helpdesk link" timestamp="2018-08-27T19:26:46" hostname="localhost" time="13.134" errors="0" tests="1" skipped="0" disabled="0" failures="1">
+  <testcase classname="Verify user navigation on Contact the Helpdesk link" name="should redirect user to helpdesk page" time="13.134">
+   <failure type="exception" message="Failed: No element found using locator: By(xpath, //p[@id=&apos;header-help-text-links&apos;]/a)"><![CDATA[NoSuchElementError: No element found using locator: By(xpath, //p[@id='header-help-text-links']/a)
+    at elementArrayFinder.getWebElements.then (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at LoginPage.contactHelpdesk (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\pages\LoginPage.js:94:63)
+    at UserContext.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:136:25)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it("should redirect user to helpdesk page") in control flow
+    at UserContext.<anonymous> (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:135:9)
+    at addSpecsToSuite (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\satya\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\adalakoti\Pictures\SnapAutomation-master\src\test\test_spec\login_spec.js:128:1)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>

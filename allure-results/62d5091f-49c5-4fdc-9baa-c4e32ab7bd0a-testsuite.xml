@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1535362994350' stop='1535363072012'>
+    <name>Verify login functionality with valid credentials</name>
+    <title>Verify login functionality with valid credentials</title>
+    <test-cases>
+        <test-case start='1535362994351' status='passed' stop='1535363001714'>
+            <name>should enter username and password in Login Page</name>
+            <title>should enter username and password in Login Page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5956b045-204d-418f-b249-bd2165c838b1-attachment.png' type='image/png' size='189888'/>
+            </attachments>
+        </test-case>
+        <test-case start='1535363001714' status='passed' stop='1535363038390'>
+            <name>should verify and enter details for Slack Page</name>
+            <title>should verify and enter details for Slack Page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ce7004b8-d013-49f6-8761-0c2af5c2f032-attachment.png' type='image/png' size='26339'/>
+            </attachments>
+        </test-case>
+        <test-case start='1535363038390' status='passed' stop='1535363053771'>
+            <name>should enter details on organisational login page</name>
+            <title>should enter details on organisational login page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ab2a851b-f90f-4da8-949b-716fa12410f5-attachment.png' type='image/png' size='2461'/>
+            </attachments>
+        </test-case>
+        <test-case start='1535363053771' status='passed' stop='1535363072012'>
+            <name>should verify SNAP home page</name>
+            <title>should verify SNAP home page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4c8dde46-7f4a-40cc-8ffa-edb53fb97635-attachment.png' type='image/png' size='185698'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

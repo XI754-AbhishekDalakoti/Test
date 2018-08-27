@@ -1,0 +1,32 @@
+{
+  "uid" : "da477b4f-4a7e-4abb-bf9a-61d23c348682",
+  "name" : "should not login the user and error message should be displayed",
+  "title" : "should not login the user and error message should be displayed",
+  "time" : {
+    "start" : 1533727407106,
+    "stop" : 1533727419289,
+    "duration" : 12183
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : null,
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "65500290-f78e-4dae-8b7e-afec3bb042ef-attachment.png",
+    "type" : null
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

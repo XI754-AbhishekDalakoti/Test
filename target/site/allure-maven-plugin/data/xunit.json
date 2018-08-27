@@ -1,0 +1,302 @@
+{
+  "time" : {
+    "start" : 1533727294365,
+    "stop" : 1533727443470,
+    "duration" : 149105
+  },
+  "testSuites" : [ {
+    "uid" : "cae6c682-49fd-4f92-8cf1-6695680d77b2",
+    "name" : "Verify validity of URL",
+    "title" : "Verify validity of URL",
+    "time" : {
+      "start" : 1533727294365,
+      "stop" : 1533727313451,
+      "duration" : 19086
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "skipped" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "4b5dc3a9-80b4-428b-8811-a415105b2d61",
+      "name" : "should check if the url redirected the user to Snap Login page",
+      "title" : "should check if the url redirected the user to Snap Login page",
+      "time" : {
+        "start" : 1533727294365,
+        "stop" : 1533727313451,
+        "duration" : 19086
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "00d50e5e-639e-4674-b4f6-474760d83c85",
+    "name" : "Verify the login functionality with empty password",
+    "title" : "Verify the login functionality with empty password",
+    "time" : {
+      "start" : 1533727402005,
+      "stop" : 1533727407094,
+      "duration" : 5089
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "skipped" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "0e6cec3f-b91c-4760-bc45-889abd7a028b",
+      "name" : "should not login the user and popup should be displayed",
+      "title" : "should not login the user and popup should be displayed",
+      "time" : {
+        "start" : 1533727402005,
+        "stop" : 1533727407094,
+        "duration" : 5089
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "7593b82f-46d5-48b0-9c60-1ad9e5bc1525",
+    "name" : "Verify the login functionality with empty credentials",
+    "title" : "Verify the login functionality with empty credentials",
+    "time" : {
+      "start" : 1533727431321,
+      "stop" : 1533727436171,
+      "duration" : 4850
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "skipped" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "637a43de-36a3-492e-aee8-1dad90f6cca7",
+      "name" : "should not login the user and error message should be displayed",
+      "title" : "should not login the user and error message should be displayed",
+      "time" : {
+        "start" : 1533727431321,
+        "stop" : 1533727436171,
+        "duration" : 4850
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "6ac7023f-7778-4342-8059-b0eaca1605be",
+    "name" : "Verify the login functionality with invalid username",
+    "title" : "Verify the login functionality with invalid username",
+    "time" : {
+      "start" : 1533727389358,
+      "stop" : 1533727402005,
+      "duration" : 12647
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "skipped" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "354f9925-7a83-4708-a454-eff167ab0a11",
+      "name" : "should not login the user and error message should be displayed",
+      "title" : "should not login the user and error message should be displayed",
+      "time" : {
+        "start" : 1533727389358,
+        "stop" : 1533727402005,
+        "duration" : 12647
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "d3a172bd-c391-4405-acf6-199568aa8b99",
+    "name" : "Verify the login functionality with invalid credentials",
+    "title" : "Verify the login functionality with invalid credentials",
+    "time" : {
+      "start" : 1533727419289,
+      "stop" : 1533727431321,
+      "duration" : 12032
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "skipped" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "e4aedc6a-b085-4003-a4d7-b602cd2b0b6a",
+      "name" : "should not login the user and error message should be displayed",
+      "title" : "should not login the user and error message should be displayed",
+      "time" : {
+        "start" : 1533727419289,
+        "stop" : 1533727431321,
+        "duration" : 12032
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "0c0af0a8-2c92-4dfd-8755-b99ac47fe361",
+    "name" : "Verify user navigation on Contact the Helpdesk link",
+    "title" : "Verify user navigation on Contact the Helpdesk link",
+    "time" : {
+      "start" : 1533727436179,
+      "stop" : 1533727443470,
+      "duration" : 7291
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "skipped" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "f30dad78-4fdb-4a02-9d09-45768a9398d2",
+      "name" : "should redirect user to helpdesk page",
+      "title" : "should redirect user to helpdesk page",
+      "time" : {
+        "start" : 1533727436179,
+        "stop" : 1533727443470,
+        "duration" : 7291
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "7b429318-3bf8-4f5b-ada6-4f81287580d2",
+    "name" : "Verify the login functionality with empty username",
+    "title" : "Verify the login functionality with empty username",
+    "time" : {
+      "start" : 1533727382464,
+      "stop" : 1533727389342,
+      "duration" : 6878
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "skipped" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "ec5e9fdc-b46a-461c-922e-cf60ede34361",
+      "name" : "should not login the user and popup should be displayed",
+      "title" : "should not login the user and popup should be displayed",
+      "time" : {
+        "start" : 1533727382464,
+        "stop" : 1533727389342,
+        "duration" : 6878
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "fca48c77-7602-4900-b92f-499f335d72cf",
+    "name" : "Verify the login functionality with invalid password",
+    "title" : "Verify the login functionality with invalid password",
+    "time" : {
+      "start" : 1533727407106,
+      "stop" : 1533727419289,
+      "duration" : 12183
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "skipped" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "da477b4f-4a7e-4abb-bf9a-61d23c348682",
+      "name" : "should not login the user and error message should be displayed",
+      "title" : "should not login the user and error message should be displayed",
+      "time" : {
+        "start" : 1533727407106,
+        "stop" : 1533727419289,
+        "duration" : 12183
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "0f9ca917-b746-4692-88b1-028d77757f27",
+    "name" : "Verify login functionality with valid credentials",
+    "title" : "Verify login functionality with valid credentials",
+    "time" : {
+      "start" : 1533727313482,
+      "stop" : 1533727382449,
+      "duration" : 68967
+    },
+    "statistic" : {
+      "total" : 4,
+      "passed" : 4,
+      "skipped" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "3e2893f4-6a83-4ee0-b71f-96fbf287c245",
+      "name" : "should enter username and password in Login Page",
+      "title" : "should enter username and password in Login Page",
+      "time" : {
+        "start" : 1533727313482,
+        "stop" : 1533727321072,
+        "duration" : 7590
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    }, {
+      "uid" : "cf934a6c-8cda-4792-8f87-962973cebc78",
+      "name" : "should verify and enter details for Slack Page",
+      "title" : "should verify and enter details for Slack Page",
+      "time" : {
+        "start" : 1533727321072,
+        "stop" : 1533727350771,
+        "duration" : 29699
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    }, {
+      "uid" : "1b5c0184-592f-4988-ae6d-b70d4477acda",
+      "name" : "should enter details on organisational login page",
+      "title" : "should enter details on organisational login page",
+      "time" : {
+        "start" : 1533727350771,
+        "stop" : 1533727364601,
+        "duration" : 13830
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    }, {
+      "uid" : "895624d6-4ea2-43b8-8df6-debb942f9a13",
+      "name" : "should verify SNAP home page",
+      "title" : "should verify SNAP home page",
+      "time" : {
+        "start" : 1533727364601,
+        "stop" : 1533727382449,
+        "duration" : 17848
+      },
+      "severity" : null,
+      "status" : "PASSED"
+    } ]
+  } ]
+}

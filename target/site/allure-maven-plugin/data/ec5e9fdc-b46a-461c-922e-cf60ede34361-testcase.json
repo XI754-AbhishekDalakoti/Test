@@ -1,0 +1,32 @@
+{
+  "uid" : "ec5e9fdc-b46a-461c-922e-cf60ede34361",
+  "name" : "should not login the user and popup should be displayed",
+  "title" : "should not login the user and popup should be displayed",
+  "time" : {
+    "start" : 1533727382464,
+    "stop" : 1533727389342,
+    "duration" : 6878
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : null,
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "4db79e87-da88-4a4b-b225-47b724142109-attachment.png",
+    "type" : null
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}

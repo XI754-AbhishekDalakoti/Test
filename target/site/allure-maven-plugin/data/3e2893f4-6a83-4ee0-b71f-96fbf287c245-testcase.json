@@ -1,0 +1,32 @@
+{
+  "uid" : "3e2893f4-6a83-4ee0-b71f-96fbf287c245",
+  "name" : "should enter username and password in Login Page",
+  "title" : "should enter username and password in Login Page",
+  "time" : {
+    "start" : 1533727313482,
+    "stop" : 1533727321072,
+    "duration" : 7590
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : null,
+  "status" : "PASSED",
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "00160698-9948-44df-9298-2450274fb9b5-attachment.png",
+    "type" : null
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Without feature"
+  }, {
+    "name" : "story",
+    "value" : "Without story"
+  } ],
+  "parameters" : [ ]
+}
